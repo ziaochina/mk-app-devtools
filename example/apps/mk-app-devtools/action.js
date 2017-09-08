@@ -10,6 +10,7 @@ class action {
     }
 
     onInit = ({ component, injections }) => {
+        console.log('init')
         this.component = component
         this.injections = injections
         injections.reduce('init')
