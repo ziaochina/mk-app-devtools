@@ -1,10 +1,10 @@
 import config from './config'
 import * as data from './data'
-import CodeMirror from './components/codeMirror'
+import CodeMirror from 'mk-component/lib/components/codeMirror'
 
 export default {
 	name: "mk-app-devtools-modify-meta",
-	version: "1.0.0",
+	version: "1.0.3",
 	description: "mk-app-devtools-modify-meta",
 	meta: data.getMeta(),
 	components: [{
