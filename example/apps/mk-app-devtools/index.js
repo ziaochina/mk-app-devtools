@@ -3,7 +3,7 @@ import * as data from './data'
 
 export default {
 	name: "mk-app-devtools",
-	version: "1.0.8",
+	version: "1.0.9",
 	description: "mk-app-devtools",
 	meta: data.getMeta(),
 	components: [],

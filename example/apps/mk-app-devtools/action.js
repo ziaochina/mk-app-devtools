@@ -21,7 +21,7 @@ class action {
         var ret = {}
         keys.forEach(k=>{
             if(k != 'config'){
-                ret[k] = {...this.config.apps[k]}
+                ret[k] = {...this.config.apps[k], _notParse: true}
             }
         })
         return ret
